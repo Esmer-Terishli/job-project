@@ -63,9 +63,13 @@ body{
     /* padding-right: 5%; */
     /* margin-left: 5%; */
     margin-right: 8%;
-    
-
-
+}
+.icon i{
+    color: white;
+    font-size: 30px;
+}
+.icon button{
+    box-shadow: 7px -7px 0px 0 rgb(199 166 146 / 40%);
 }
 .text{
     width: 220px;
