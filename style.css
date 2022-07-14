@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-head{
+    background-color: white;
+}
+body{
+    overflow-x: hidden;
+}
+.container{
+    width: 100vw;
+    height: 80px;
+}
+.person-image{
+    display: flex;
+    padding-left: 5%;
+    margin: -320px 0 auto 0;
+}
+.container img{
+    width: 300px;
+    height: 370px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-position: center;
+    background-size: cover;
+}
+.person2{
+    margin-top: 100px;
+}
+.nav-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.nav-head h3{
+    color: #929c95;
+}
+.section{
+    width: 100vw;
+    height: 380px;
+    background-color: #af856d;;
+}
+.flex-icon{
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    text-align: center;
+    padding-top: 8%;
+}
+.icon button{
+    padding: 40px;
+    background-color: #af856d;
+    border-radius: 50%;
+    border: none;
+}
+.icon{
+    /* padding-left: 5%; */
+    /* padding-right: 5%; */
+    /* margin-left: 5%; */
+    margin-right: 8%;
+    
+
+
+}
+.text{
+    width: 220px;
+}
+.icon h3{
+    font-size: 20px;
+    margin-left: -5px; 
+    padding-top: 20px;
+    color: grey;
+}
+.icon span{
+     border: 1px solid black;
+     border-style: none none solid;
+}  
+.text-end p{
+    text-align: center;
+    padding-top: 40px;
+    font-weight: bold;
+}
+.text-end a{
+    color: black;
+}
+.nav-head2{
+    width: 100vw;
+    height: 120px;
+    margin-top: 900px;
+    background-color: black;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: .3s;
+}
+nav ul li a:hover{
+    color: #f12c0e;
+}
+nav h3{
+    color: #929c95;
+}
+footer{
+    width: 100vw;
+    height: 120px;
+    background-color: grey;
+    text-align: center;
+    color: white;
+}
+footer p{
+    padding-top: 60px;
+}
